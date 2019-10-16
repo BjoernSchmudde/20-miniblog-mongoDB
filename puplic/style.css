@@ -50,13 +50,13 @@
     width: 450px;
     margin: 0 auto;
 }
-#btnArtikel{
+#btnCreateArtikel{
     height: 50px;
     width: 450px;
     margin: 0 auto;
     background-color: indianred;
 }
-#Artikel{
-    margin:0 auto;
+#btnArtikel,#addBtnArtikel{
+    margin: auto;
     color: red;
 }
