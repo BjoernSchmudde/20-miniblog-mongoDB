@@ -1,0 +1,22 @@
+{
+  "name": "20-miniblog-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.5",
+    "mysql": "^2.17.1",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "seeds": "node seeds.js",
+    "seeds:delete": "node seeds.js --delete"
+  },
+  "author": "",
+  "license": "ISC"
+}

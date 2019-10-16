@@ -1,0 +1,62 @@
+*{
+    margin:0;
+
+}
+.header{
+    height: 120px;
+    background: url(SanAndres.jpg) ;
+    background-size: cover;
+    
+    color:limegreen;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background:radial-gradient(closest-side, #449b50, #291e91, #c06b10, rgba(160, 13, 218, 0.067));
+    height: 550px;
+    width: 1282px;
+
+}
+.blog,.blog1{
+    display:flex;
+    padding: 3px;
+    border: solid black 2px;
+    height: 250px;
+    width: 285px;
+    margin: auto;
+    background-color: mediumseagreen;
+    opacity: 0.6;
+    color:yellow;
+}
+.newArtikel{
+    display: flex;
+    flex-direction: column;
+    background: url(SanAndres.jpg) ;
+    background-size: cover;
+    
+}
+#title{
+    display: flex;
+    text-align: center;
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+}
+#text{
+    display: flex;
+    text-align: center;
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+}
+#btnArtikel{
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: indianred;
+}
+#Artikel{
+    margin:0 auto;
+    color: red;
+}
